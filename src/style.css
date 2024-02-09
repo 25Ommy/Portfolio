@@ -1,0 +1,88 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  color: #f0daae;
+  background-color: #442030;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+body {
+  background-color: #703535;
+}
+section {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 25px;
+  border-radius: 8px;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 73%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+footer {
+  text-align: center;
+  padding: 4px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  line-height: 0.8;
+}
+a {
+  color: #f0daae;
+  text-decoration: none;
+}
+a:hover {
+  color: #a3966a;
+}
+.github {
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f0daae;
+  min-width: 160px;
+
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: whitesmoke;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #a3966a;
+  min-width: 160px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
