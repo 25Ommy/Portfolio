@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
       rel="stylesheet"
     />
     <title>Portfolio</title>
@@ -15,72 +16,216 @@
   <body>
     <header>
       <div>
-        <h1>Ommy</h1>
+        <h1>Ommy|Developer</h1>
       </div>
       <div class="dropdown">
         <button class="dropbtn"><a href="#about-me">About Me</a></button>
       </div>
       <div class="dropdown">
-        <button class="dropbtn"><a href="#about">Skills</a></button>
+        <button class="dropbtn"><a href="#skill">Skills</a></button>
       </div>
       <div class="dropdown">
-        <button class="dropbtn"><a href="#about">Projects</a></button>
-      </div>
-      <div class="dropdown">
-        <button class="dropbtn"><a href="#about">Contact</a></button>
+        <button class="dropbtn"><a href="#project">Projects</a></button>
       </div>
       <div class="dropdown">
         <button class="dropbtn">
           <a href="#">Resume</a>
         </button>
       </div>
+
+      <div class="dropdown">
+        <button class="dropbtn"><a href="#about">Contact</a></button>
+      </div>
     </header>
     <section class="intro">
-      <h1>
-        <strong>
-          Hi! <br />
-          Kgopotso Ommy Molele
-        </strong>
-      </h1>
+      <div class="section">
+        <span class="border">
+          <em>
+            <h1>
+              <strong>
+                Hi! <br />
+                Kgopotso Ommy Molele
+              </strong>
+            </h1>
 
-      <p>Junior Frond-end developer,based in South Africa</p>
-      <img src="src/Ohms.jpg" alt="Ommy" width="400px" class="image" />
+            <p>Junior Front-end developer based in South Africa,Limpopo.</p>
+          </em>
+        </span>
+
+        <span>
+          <img
+            src="src/Ohms.jpg"
+            alt="Ommy"
+            width="400px"
+            class="image"
+            id="animation"
+        /></span>
+      </div>
     </section>
 
     <section>
       <div>
         <h2 id="about-me">About Me</h2>
         <br />
-        <span class="text">
-          As a 23-year-old female with a passion for web development, I thrive
-          on the dynamic journey of constant learning and growth. Proficient in
-          HTML, CSS, and JavaScript, I craft visually stunning and functional
-          websites that captivate audiences. <br />
-          <br />
-          My dedication to staying on the cutting edge of technology drives me
-          to continuously upskill, seizing every opportunity to expand my
-          knowledge and expertise. <br />
-          <br />
-          With each project, I strive to push boundaries, embrace challenges,
-          and deliver innovative solutions. Join me on this exciting journey as
-          I evolve, create, and make an impact in the ever-evolving world of web
-          development.
-        </span>
+        <div class="text">
+          <span>
+            <strong>
+              As a 23-year-old female with a passion for web development.
+              Proficient in HTML, CSS, JavaScript, and adept at utilizing APIs
+              for enhanced functionality, I thrive on creating seamless user
+              experiences. My expertise extends to SEO strategies, ensuring
+              websites I develop rank highly and drive organic traffic.
+              <br />
+              <br />
+              Bootstrap is my go-to framework for responsive design, while
+              GitHub serves as my playground for version control and
+              collaborative projects. Additionally, I excel in hosting websites,
+              ensuring they're accessible and reliable. <br
+            /></strong>
+          </span>
+          <span>
+            <strong>
+              What sets me apart is my unwavering commitment to continuous
+              learning. I embrace every opportunity to upskill, whether through
+              online courses, workshops, or industry events. This proactive
+              approach ensures that I stay at the forefront of technological
+              advancements and trends, enabling me to deliver cutting-edge
+              solutions to clients and employers alike. <br />
+              <br />
+              With a dedication to excellence and a hunger for knowledge, I am
+              ready to tackle any challenge that comes my way and contribute
+              positively to the ever-evolving field of web development.</strong
+            ></span
+          >
+        </div>
       </div>
     </section>
-    <div class="contact">
-      <a href="#"
-        ><img src="./src/facebook1.png" alt="instagram" style="width: 36px"
-      /></a>
-      <a href="#"
-        ><img src="./src/linnkedin1.png" alt="linkedin" style="width: 36px"
-      /></a>
-      <a href="#"
-        ><img src="./src/whatsapp1.png" alt="whatsapp" style="width: 36px"
-      /></a>
+    <section>
+      <div class="skills">
+        <h3 id="skill">Skills</h3>
 
-      <a href="#"></a>
-    </div>
+        <div class="section-skills">
+          <span class="border-skills">
+            <img
+              alt="HTML"
+              class="html"
+              src="//s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/010/original/html.png?1701382194"
+              width="50px"
+            />
+            <p class="center">HTML</p>
+          </span>
+          <span class="border-skills">
+            <img
+              alt="CSS"
+              class="css"
+              src="//s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/004/original/css.png?1701382152"
+              width="50px"
+            />
+            <p class="center">CSS</p>
+          </span>
+          <span class="border-skills">
+            <img
+              alt="JavaScript"
+              class="javascript"
+              src="//s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/011/original/javascript.png?1701382197"
+              width="50px"
+            />
+            <p class="center">JavaScript</p>
+          </span>
+          <span class="border-skills">
+            <img
+              alt="VSCode"
+              class="vscode"
+              src="//s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/005/original/editor.png?1701382155"
+              width="50px"
+            />
+            <p class="center">VSCode</p>
+          </span>
+        </div>
+
+        <div class="section-skills">
+          <span class="border-skills">
+            <img
+              alt="API"
+              class="api"
+              src="//s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/002/original/api.png?1701382147"
+              width="50px"
+            />
+            <p class="center">API</p>
+          </span>
+          <span class="border-skills">
+            <img
+              alt="GitHub"
+              class="github"
+              src="//s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/017/original/github.png?1701382623"
+              width="50px"
+            />
+            <p class="center">GitHub</p>
+          </span>
+          <span class="border-skills">
+            <img
+              alt="Hosting"
+              class="hosting"
+              src="//s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/009/original/hosting.png?1701382192"
+              width="50px"
+            />
+            <p class="center">Hosting</p>
+          </span>
+          <span class="border-skills">
+            <img
+              alt="Bootstrap"
+              class="bootstrap"
+              src="//s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/003/original/bootstrap.png?1701382150"
+              width="50px"
+            />
+            <p class="center">Bootstrap</p>
+          </span>
+        </div>
+
+        <div class="section-skills">
+          <span class="border-skills">
+            <img
+              alt="Flexbox"
+              class="flexbox"
+              src="//s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/006/original/flexbox.png?1701382158"
+              width="50px"
+            />
+            <p class="center">Flexbox</p>
+          </span>
+          <span class="border-skills">
+            <img
+              alt="SEO"
+              class="seo"
+              src="//s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/014/original/seo.png?1701426631"
+              width="50px"
+            />
+            <p class="center">SEO</p>
+          </span>
+          <span class="border-skills">
+            <img
+              alt="Responsive"
+              class="responsive"
+              src="//s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/013/original/responsive.png?1701382225"
+              width="50px"
+            />
+            <p class="center">Responsive</p>
+          </span>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div><h4 id="project">Projects</h4></div>
+    </section>
+
+    <a href="#"
+      ><img src="./src/linnkedin1.png" alt="linkedin" style="width: 36px"
+    /></a>
+    <a href="#"
+      ><img
+        alt="GitHub"
+        src="//s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/017/original/github.png?1701382623"
+        width="39px"
+    /></a>
 
     <footer>
       <strong>Copyright &copy; 2024 Ommy-All Rights Reserved</strong>
